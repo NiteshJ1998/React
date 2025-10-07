@@ -1,6 +1,8 @@
 import React from "react";
+import FruitList from "./PracticeTask6/FruitList";
 // import LikeButton from "./PracticeTask3/LikeButton";
-import LoginBtn from "./PracticeTask4/LoginBtn";
+// import LoginBtn from "./PracticeTask4/LoginBtn";
+// import NameForm from "./PracticeTask5/NameForm";
 // import ToggleMessage from "./components/ToggleMessage";
 // import InputEx from "./components/InputEx";
 // import UserList from "./components/UserList";
@@ -20,7 +22,9 @@ function App() {
       {/* <Footer name="Nitesh" year="2025" /> */}
 
       {/* <LikeButton /> */}
-      <LoginBtn />
+      {/* <LoginBtn /> */}
+      {/* <NameForm /> */}
+      <FruitList />
     </div>
   );
 }

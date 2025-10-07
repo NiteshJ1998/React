@@ -5,7 +5,7 @@ function LoginBtn() {
   return (
     <div>
       <button onClick={() => setIsLoggedIn(!isLoggedIn)}>
-        {isLoggedIn ? "Login" : "Logout"}
+        {isLoggedIn ? "Logout" : "Login"}
       </button>
       <p>{isLoggedIn ? "Welcome back" : "You need to sign in"}</p>
     </div>
