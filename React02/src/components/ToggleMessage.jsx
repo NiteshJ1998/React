@@ -4,7 +4,7 @@ function ToggleMessage() {
   const [show, setShow] = useState(false);
 
   function handleToggle() {
-    debugger;
+    
     setShow(!show);
   }
   return (
