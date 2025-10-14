@@ -7,6 +7,7 @@ function App() {
   // Variation - 1
   // runs on every render
 
+  
   // useEffect(() => {
   //   alert("this will render on each render");
   // });

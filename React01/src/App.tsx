@@ -1,10 +1,13 @@
-import { useState } from "react";
-import HelloWorld from "./Components/HelloWorld";
+// import { useState } from "react";
+// import HelloWorld from "./Components/HelloWorld";
 
-import Counter2 from "./Components/Counter2";
-import InputForm from "./Components/InputForm";
-import type React from "react";
-import Login from "./Components/Login";
+import Button from "./Practice01/Button";
+import Button1 from "./Practice01/Button1";
+
+// import Counter2 from "./Components/Counter2";
+// import InputForm from "./Components/InputForm";
+// import type React from "react";
+// import Login from "./Components/Login";
 
 // import Counter from "./Components/Counter";
 
@@ -16,10 +19,14 @@ const App = () => {
       {/* <HelloWorld /> */}
       {/* <Counter2 /> */}
       {/* <InputForm /> */}
-      <Login />
+      {/* <Login /> */}
       {/* <Counter />
        */}
       {/* <Practice /> */}
+      {/* <Button /> */}
+      <Button1 />
+
+      form , props, useEffect, state uplifting, useState, lifecycle
     </div>
   );
 };
