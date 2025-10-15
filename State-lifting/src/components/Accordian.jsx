@@ -1,32 +1,22 @@
-import React, { useState } from "react";
-import Pannel from "./components/Pannel";
+import React from "react";
 
-function App() {
-  const [activeIndex, setActiveIndex] = useState(0);
+function Accordian() {
   return (
     <div>
       <h2>Almaty, Kazakhstan</h2>
-      <Pannel
-        title="About"
-        isActive={activeIndex === 0}
-        onShow={() => setActiveIndex(0)}
-      >
+      <Panel title="About">
         With a population of about 2 million, Almaty is Kazakhstan's largest
         city. From 1929 to 1997, it was its capital city.
-      </Pannel>
-      <Pannel
-        title="Etymology"
-        isActive={activeIndex === 1}
-        onShow={() => setActiveIndex(1)}
-      >
+      </Panel>
+      <Panel title="Etymology">
         The name comes from <span lang="kk-KZ">алма</span>, the Kazakh word for
         "apple" and is often translated as "full of apples". In fact, the region
         surrounding Almaty is thought to be the ancestral home of the apple, and
         the wild <i lang="la">Malus sieversii</i> is considered a likely
         candidate for the ancestor of the modern domestic apple.
-      </Pannel>
+      </Panel>
     </div>
   );
 }
 
-export default App;
+export default Accordian;
