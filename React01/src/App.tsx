@@ -3,6 +3,7 @@
 
 import Button from "./Practice01/Button";
 import Button1 from "./Practice01/Button1";
+import Input from "./Practice01/Input";
 
 // import Counter2 from "./Components/Counter2";
 // import InputForm from "./Components/InputForm";
@@ -24,9 +25,11 @@ const App = () => {
        */}
       {/* <Practice /> */}
       {/* <Button /> */}
-      <Button1 />
+      {/* <Button1 /> */}
 
-      form , props, useEffect, state uplifting, useState, lifecycle
+      {/* form , props, useEffect, state uplifting, useState, lifecycle */}
+
+      <Input />
     </div>
   );
 };
