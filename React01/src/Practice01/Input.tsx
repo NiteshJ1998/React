@@ -28,7 +28,7 @@ const Input = () => {
       />
       <button onClick={submitData}>submit</button>
       <button onClick={clearButton}>ClearButton</button>
-      User Details : {hide ? <div>{name}</div> : null}
+      <h2>User Details : {hide ? <div>{name}</div> : null}</h2>
     </div>
     // submit karne pe input box disable aur button disable hona chahiye
     // clearbutton pe input box and submit button enable hona chahiye
